@@ -549,6 +549,7 @@ textarea.form-control {
   }
 }
 @media (max-width: 991px) {
+  
   .navigation {
     padding: 20px;
     background: #07085d;
@@ -591,6 +592,15 @@ textarea.form-control {
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
+.navbar img {
+  max-height: 450px; /* ya 100px, jo tu bada chaahe */
+  width: auto;
+  object-fit: contain;
+}
+
+/* .navbar {
+  height: 120px;
+} */
 
 .banner {
   min-height: 100vh;
